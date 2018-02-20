@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB147F3203CAB0A00612E68 /* CFPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB147F2203CAB0A00612E68 /* CFPoint.m */; };
+		CBB147F6203CAB7C00612E68 /* CFCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB147F5203CAB7C00612E68 /* CFCluster.m */; };
+		CBC2470C1F477D8300794D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2470B1F477D8300794D1C /* main.m */; };
+		CBC247241F477E5700794D1C /* ScreenLED.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC247231F477E5700794D1C /* ScreenLED.m */; };
+		CBC247271F477FC700794D1C /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC247191F477DA400794D1C /* ORSSerialBuffer.m */; };
+		CBC247281F477FC700794D1C /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2471B1F477DA400794D1C /* ORSSerialPacketDescriptor.m */; };
+		CBC247291F477FC700794D1C /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2471D1F477DA400794D1C /* ORSSerialPort.m */; };
+		CBC2472A1F477FC700794D1C /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2471F1F477DA400794D1C /* ORSSerialPortManager.m */; };
+		CBC2472B1F477FC700794D1C /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC247211F477DA400794D1C /* ORSSerialRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBC247061F477D8300794D1C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBB147F1203CAB0A00612E68 /* CFPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPoint.h; sourceTree = "<group>"; };
+		CBB147F2203CAB0A00612E68 /* CFPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPoint.m; sourceTree = "<group>"; };
+		CBB147F4203CAB7C00612E68 /* CFCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFCluster.h; sourceTree = "<group>"; };
+		CBB147F5203CAB7C00612E68 /* CFCluster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFCluster.m; sourceTree = "<group>"; };
+		CBC247081F477D8300794D1C /* ScreenLEDCommand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScreenLEDCommand; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC2470B1F477D8300794D1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBC247181F477DA400794D1C /* ORSSerialBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
+		CBC247191F477DA400794D1C /* ORSSerialBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		CBC2471A1F477DA400794D1C /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		CBC2471B1F477DA400794D1C /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		CBC2471C1F477DA400794D1C /* ORSSerialPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		CBC2471D1F477DA400794D1C /* ORSSerialPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		CBC2471E1F477DA400794D1C /* ORSSerialPortManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		CBC2471F1F477DA400794D1C /* ORSSerialPortManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		CBC247201F477DA400794D1C /* ORSSerialRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		CBC247211F477DA400794D1C /* ORSSerialRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		CBC247221F477E5700794D1C /* ScreenLED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenLED.h; sourceTree = "<group>"; };
+		CBC247231F477E5700794D1C /* ScreenLED.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenLED.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC247051F477D8300794D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC246FF1F477D8300794D1C = {
+			isa = PBXGroup;
+			children = (
+				CBC2470A1F477D8300794D1C /* ScreenLEDCommand */,
+				CBC247091F477D8300794D1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC247091F477D8300794D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC247081F477D8300794D1C /* ScreenLEDCommand */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC2470A1F477D8300794D1C /* ScreenLEDCommand */ = {
+			isa = PBXGroup;
+			children = (
+				CBC247171F477DA400794D1C /* ORSSerialPort */,
+				CBC2470B1F477D8300794D1C /* main.m */,
+				CBC247221F477E5700794D1C /* ScreenLED.h */,
+				CBC247231F477E5700794D1C /* ScreenLED.m */,
+				CBB147F1203CAB0A00612E68 /* CFPoint.h */,
+				CBB147F2203CAB0A00612E68 /* CFPoint.m */,
+				CBB147F4203CAB7C00612E68 /* CFCluster.h */,
+				CBB147F5203CAB7C00612E68 /* CFCluster.m */,
+			);
+			path = ScreenLEDCommand;
+			sourceTree = "<group>";
+		};
+		CBC247171F477DA400794D1C /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				CBC247181F477DA400794D1C /* ORSSerialBuffer.h */,
+				CBC247191F477DA400794D1C /* ORSSerialBuffer.m */,
+				CBC2471A1F477DA400794D1C /* ORSSerialPacketDescriptor.h */,
+				CBC2471B1F477DA400794D1C /* ORSSerialPacketDescriptor.m */,
+				CBC2471C1F477DA400794D1C /* ORSSerialPort.h */,
+				CBC2471D1F477DA400794D1C /* ORSSerialPort.m */,
+				CBC2471E1F477DA400794D1C /* ORSSerialPortManager.h */,
+				CBC2471F1F477DA400794D1C /* ORSSerialPortManager.m */,
+				CBC247201F477DA400794D1C /* ORSSerialRequest.h */,
+				CBC247211F477DA400794D1C /* ORSSerialRequest.m */,
+			);
+			path = ORSSerialPort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC247071F477D8300794D1C /* ScreenLEDCommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC2470F1F477D8300794D1C /* Build configuration list for PBXNativeTarget "ScreenLEDCommand" */;
+			buildPhases = (
+				CBC247041F477D8300794D1C /* Sources */,
+				CBC247051F477D8300794D1C /* Frameworks */,
+				CBC247061F477D8300794D1C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenLEDCommand;
+			productName = ScreenLEDCommand;
+			productReference = CBC247081F477D8300794D1C /* ScreenLEDCommand */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC247001F477D8300794D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Daniel Eke";
+				TargetAttributes = {
+					CBC247071F477D8300794D1C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBC247031F477D8300794D1C /* Build configuration list for PBXProject "ScreenLEDCommand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC246FF1F477D8300794D1C;
+			productRefGroup = CBC247091F477D8300794D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC247071F477D8300794D1C /* ScreenLEDCommand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC247041F477D8300794D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC2472B1F477FC700794D1C /* ORSSerialRequest.m in Sources */,
+				CBC247291F477FC700794D1C /* ORSSerialPort.m in Sources */,
+				CBB147F6203CAB7C00612E68 /* CFCluster.m in Sources */,
+				CBC247241F477E5700794D1C /* ScreenLED.m in Sources */,
+				CBC247281F477FC700794D1C /* ORSSerialPacketDescriptor.m in Sources */,
+				CBC2472A1F477FC700794D1C /* ORSSerialPortManager.m in Sources */,
+				CBC2470C1F477D8300794D1C /* main.m in Sources */,
+				CBC247271F477FC700794D1C /* ORSSerialBuffer.m in Sources */,
+				CBB147F3203CAB0A00612E68 /* CFPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBC2470D1F477D8300794D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBC2470E1F477D8300794D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBC247101F477D8300794D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/opencv/2.4.12_2/lib,
+					"/usr/local/Cellar/opencv/2.4.12_2/lib/python2.7/site-packages",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CBC247111F477D8300794D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/opencv/2.4.12_2/lib,
+					"/usr/local/Cellar/opencv/2.4.12_2/lib/python2.7/site-packages",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC247031F477D8300794D1C /* Build configuration list for PBXProject "ScreenLEDCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC2470D1F477D8300794D1C /* Debug */,
+				CBC2470E1F477D8300794D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC2470F1F477D8300794D1C /* Build configuration list for PBXNativeTarget "ScreenLEDCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC247101F477D8300794D1C /* Debug */,
+				CBC247111F477D8300794D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC247001F477D8300794D1C /* Project object */;
+}
