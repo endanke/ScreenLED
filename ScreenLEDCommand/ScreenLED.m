@@ -88,10 +88,10 @@ dispatch_source_t CreateDispatchTimer(double interval, dispatch_queue_t queue, d
 - (void)fetchColor{
     CGImageRef cgimage = CGDisplayCreateImage(kCGDirectMainDisplay);
     float width = CGImageGetWidth(cgimage);
-    float height = CGImageGetWidth(cgimage);
+    float height = CGImageGetHeight(cgimage);
     float sampleSize = 32;
     CGImageRef part1 = CGImageCreateWithImageInRect(cgimage, CGRectMake(0, height/3, sampleSize, height/3));
-    CGImageRef part2 = CGImageCreateWithImageInRect(cgimage, CGRectMake(width/2-sampleSize, (height-sampleSize)/2, sampleSize*2, sampleSize));
+    CGImageRef part2 = CGImageCreateWithImageInRect(cgimage, CGRectMake(width/2-sampleSize, height/2-sampleSize, sampleSize*2, sampleSize));
     CGImageRef part3 = CGImageCreateWithImageInRect(cgimage, CGRectMake(width-32, height/3, sampleSize, height/3));
     
     NSColor *newA = [self getDominantColorForImage:part1 sampleSize:sampleSize];
