@@ -3,7 +3,7 @@ A simple macOS application that displays dominant screen colors on LED strips wi
 
 Demo:
 
-![Gif demo](https://ekedaniel.hu/static/img/led.cb70db7.gif)
+![Gif demo](/sample.gif)
 
 Steps to use:
 - Get an individually addressable RGB LED strip and an Arduino. With referably min. 27 LED.
